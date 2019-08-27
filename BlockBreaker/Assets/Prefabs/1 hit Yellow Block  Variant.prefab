@@ -7,11 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1786688208704824717, guid: a74e310966aba4994a38d6098fe96088,
-        type: 3}
-      propertyPath: m_Name
-      value: Yellow Block  Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 1786688208704824719, guid: a74e310966aba4994a38d6098fe96088,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66,6 +61,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786688208704824717, guid: a74e310966aba4994a38d6098fe96088,
+        type: 3}
+      propertyPath: m_Name
+      value: Yellow Block  Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786688208704824713, guid: a74e310966aba4994a38d6098fe96088,
+        type: 3}
+      propertyPath: hitSprites.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786688208704824713, guid: a74e310966aba4994a38d6098fe96088,
+        type: 3}
+      propertyPath: maxHits
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1786688208704824718, guid: a74e310966aba4994a38d6098fe96088,
         type: 3}
