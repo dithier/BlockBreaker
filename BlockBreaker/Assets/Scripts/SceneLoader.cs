@@ -9,19 +9,18 @@ public class SceneLoader : MonoBehaviour
     public void LoadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int totalScenes = SceneManager.sceneCountInBuildSettings;
-        int nextScene = (currentSceneIndex + 1) % totalScenes;
-        // if loading the start scene, destroy to the gamestatus to restart score count
-        if (nextScene == 0)
-        {
-            FindObjectOfType<GameStatus>().ResetGame();
-        }
-        SceneManager.LoadScene(nextScene);
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
     public void LoadNextScene(float delay)
     {
         Invoke("LoadNextScene", delay);
+    }
+
+    public void LoadStartMenu()
+    {
+        FindObjectOfType<GameStatus>().ResetGame();
+        SceneManager.LoadScene(0);
     }
 
     public void QuitScene()
