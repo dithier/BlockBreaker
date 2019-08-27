@@ -9,6 +9,7 @@ public class GameStatus : MonoBehaviour
 	[Range(0.1f, 10f)] [SerializeField] float gameSpeed = 1f;
 	[SerializeField] int pointsPerBlockDestroyed = 83;
 	[SerializeField] TextMeshProUGUI scoreText;
+	[SerializeField] bool isAutoPlayEnabled = false;
 
 	// state variables
 	[SerializeField] int currentScore = 0;
@@ -29,6 +30,12 @@ public class GameStatus : MonoBehaviour
 		}
 	}
 
+	// Update is called once per frame
+	void Update()
+	{
+		Time.timeScale = gameSpeed;
+	}
+
 	public void ResetGame()
 	{
 		Destroy(gameObject);
@@ -39,11 +46,6 @@ public class GameStatus : MonoBehaviour
 		DisplayScore();
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-		Time.timeScale = gameSpeed;
-	}
 
 	public void AddToScore()
 	{
@@ -54,6 +56,11 @@ public class GameStatus : MonoBehaviour
 	private void DisplayScore()
 	{
 		scoreText.text = $"Score: {currentScore}";
+	}
+
+    public bool IsAutoPlayEnabled()
+	{
+		return isAutoPlayEnabled;
 	}
 	
 }

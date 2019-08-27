@@ -12,12 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 0c500acc96b454db5807cc0a81817c98
   - enabled: 1
+    path: Assets/Scenes/Level0.unity
+    guid: 122f09cbb8f5a4ff3b98f9da097b879c
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 80daffc6df9f04b488cb5a2c3c55bfe0
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 977f0763b7d074301b2fc94e6c4898c5
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
+    path: Assets/Scenes/WinnerScene.unity
     guid: c7c1b5044dee2485ea64ddc064d47a41
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: b14d7f6b4b5a54f6f9680d4c56e418bb
   m_configObjects: {}

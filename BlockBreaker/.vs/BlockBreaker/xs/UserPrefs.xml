@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{B673CBF3-9144-4F0F-B8B9-41716440C694}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameSession.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/Ball.cs" Line="63" Column="10" />
-      <File FileName="Assets/Scripts/LoseCollider.cs" />
-      <File FileName="Assets/Scripts/Block.cs" Line="8" Column="50" />
-      <File FileName="Assets/Scripts/Level.cs" />
-      <File FileName="Assets/Scripts/SceneLoader.cs" />
-      <File FileName="Assets/Scripts/GameSession.cs" Line="18" Column="52" />
+      <File FileName="Assets/Scripts/Paddle.cs" Line="19" Column="18" />
+      <File FileName="Assets/Scripts/GameStatus.cs" Line="25" Column="16" />
+      <File FileName="Assets/Scripts/Ball.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +13,7 @@
           <Node name="BlockBreaker" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GameSession.cs" selected="True" />
+                <Node name="SceneLoader.cs" selected="True" />
               </Node>
             </Node>
           </Node>
